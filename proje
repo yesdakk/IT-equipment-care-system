@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: linear-gradient(rgba(197, 195, 195, 0.5), rgba(255, 250, 250, 0.5)), url('https://www.loeiram.co.th/default/img/loeiram1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .center-content {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.685);
+            border-radius: 15px;
+        }
+        .title {
+            color: #2b94ef;
+            margin-bottom: 0;
+        }
+        .title1 {
+            color: #f07cea;
+            margin-bottom: 0;
+        }
+        .subtitle {
+            color: #3879b2;
+            margin-top: 0;
+        }
+        hr {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px auto;
+            border-width: 3px;
+            border-color: #3879b2;
+        }
+        .btn-login {
+            width: 100%;
+            max-width: 300px;
+            font-size: 1.5em;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #46aff6;
+            border-color: #4793c5;
+            color: white;
+            border-radius: 15px;
+        }
+        @media (max-width: 768px) {
+            .title, .subtitle {
+                font-size: 1.2em;
+            }
+            .btn-login {
+                font-size: 1em;
+                padding: 8px;
+            }
+        }
+        svg {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-content">
+        <svg width="400" height="100">
+            <defs>
+                <path id="curve" d="M 50 100 Q 200 0 350 100" />
+            </defs>
+            <text width="400" style="fill: #f07cea; font-size: 24px;">
+                <textPath xlink:href="#curve">
+                    IT equipment care system
+                </textPath>
+            </text>
+        </svg>
+        <img src="img/rm.png" alt="ข้อความอธิบายภาพ" width="300" height="300" class="img-fluid my-3">
+        <h1 class="title">โรงพยาบาลเลยราม</h1>
+        <hr>
+        <h1 class="subtitle">Muangloei loei lam</h1>
+        <button type="submit" class="btn btn-primary btn-login">Login</button>
+    </div>
+</body>
+</html>
